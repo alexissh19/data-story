@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lobster|Oswald|Shadows+Into+Light');
+/* font-family: 'Lobster', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Bree Serif', serif; */
+/* ---------------------------------------------------------- */
+body {
+  min-width: 300px;
+}
+body > header {
+  height: 1fr;
+  background: lightsalmon;
+  margin-bottom: 10px;
+  outline-style: solid;
+  outline-color: coral;
+}
+h1 {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  margin: 0px;
+}
+h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+}
+h3 {
+  outline-style: solid;
+  outline-color: blanchedalmond;
+  margin: 18px 10px;
+}
+section#overview-block {
+  font-family: 'Bree Serif', serif;
+  margin: 0px;
+}
+section#overview-block > p {
+  margin: 16px 15px 0px 15px;
+  text-indent: 45px
+}
+/* -------------------------------------
+------------------------------------- */
+main {
+  font-family: 'Bree Serif', serif;
+}
+main > section {
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+  height: auto;
+  margin: 30px 0px;
+  background-color: peachpuff;
+  outline-style: solid;
+  outline-color: lightsalmon;
+  outline-width: thick;
+
+}
+main > section > div#month {
+  background-color: rgba(255, 160, 122, 0.5);
+  font-size: 30px;
+}
+main > section > div > h2 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  margin: 10px;
+  text-decoration: underline;
+}
+main > section > div > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: white;
+}
+main > section > div > a {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: white;
+}
+main > section > div > p {
+  text-indent: 40px;
+  margin: 0px 15px;
+}
+/* -----------------------------------------------------
+----------------------------------------------------- */
+footer {
+  height: 75px;
+  background-color: lightsalmon;
+  font-family: 'Bree Serif', serif;
+  outline-style: solid;
+  outline-color: coral;
+}
